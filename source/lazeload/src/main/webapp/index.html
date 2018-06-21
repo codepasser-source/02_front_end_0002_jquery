@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>jQuery lazyload</title>
+<style type="text/css">
+.image-container {
+	border: 1px solid #000000;
+	width: 1210px;
+}
+
+.lazy {
+	
+}
+</style>
+<script type="text/javascript" src="js/mattdamon.js"></script>
+<script type="text/javascript" src="js/jquery/1.11.2/jquery.js"></script>
+<script type="text/javascript" src="js/jquery/1.11.2/plugin/lazyload.js"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+		$("div.image-container[index='1'] img.lazy").lazyload({
+			effect : "fadeIn",
+			//threshold : 200,
+			//event : "sporty"
+		});
+
+		$("div.image-container[index='2'] img.lazy").lazyload({
+			effect : "fadeIn",
+			//event : "sporty"
+		});
+
+		$("div.image-container[index='3'] img.lazy").lazyload({
+			effect : "fadeIn",
+			//event : "sporty"
+		});
+
+		$("div.image-container[index='4'] img.lazy").lazyload({
+			effect : "fadeIn",
+			//event : "sporty"
+		});
+
+		$("div.image-container[index='5'] img.lazy").lazyload({
+			effect : "fadeIn",
+			//event : "sporty"
+		});
+
+		$("div.image-container[index='6'] img.lazy").lazyload({
+			effect : "fadeIn",
+			//event : "sporty"
+		});
+
+		$("div.image-container[index='7'] img.lazy").lazyload({
+			effect : "fadeIn",
+			//event : "sporty"
+		});
+
+		/* $(window).bind("load", function() {
+			var timeout = setTimeout(function() {
+				console.log("sporty trigger");
+				$("img.lazy").trigger("sporty")
+			}, 5000);
+		}); */
+
+	});
+</script>
+</head>
+<body>
+	<h1>jQuery lazyload</h1>
+	<hr>
+	<div class="image-container" index="1">
+		<img class="lazy" data-original="img/1.jpg" width="400px" heigh="180">
+		<noscript>
+			<img class="noimage" src="img/1.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/1.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/1.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/1.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/1.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/1.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/1.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/1.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/1.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/1.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/1.jpg" width="400px" heigh="180">
+		</noscript>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="image-container" index="2">
+		<img class="lazy" data-original="img/2.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/2.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/2.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/2.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/2.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/2.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/2.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/2.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/2.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/2.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/2.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/2.jpg" width="400px" heigh="180">
+		</noscript>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="image-container" index="3">
+		<img class="lazy" data-original="img/3.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/3.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/3.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/3.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/3.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/3.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/3.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/3.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/3.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/3.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/3.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/3.jpg" width="400px" heigh="180">
+		</noscript>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="image-container" index="4">
+		<img class="lazy" data-original="img/4.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/4.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/4.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/4.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/4.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/4.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/4.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/4.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/4.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/4.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/4.jpg" width="400px" heigh="180">
+		</noscript>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="image-container" index="5">
+		<img class="lazy" data-original="img/5.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/5.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/5.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/5.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/5.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/5.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/5.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/5.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/5.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/5.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/5.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/5.jpg" width="400px" heigh="180">
+		</noscript>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="image-container" index="6">
+		<img class="lazy" data-original="img/6.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/6.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/6.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/6.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/6.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/6.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/6.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/6.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/6.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/6.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/6.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/6.jpg" width="400px" heigh="180">
+		</noscript>
+		<div style="clear: both;"></div>
+	</div>
+
+	<div class="image-container" index="7">
+		<img class="lazy" data-original="img/7.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/7.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/7.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/7.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/7.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/7.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/7.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/7.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/7.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/7.jpg" width="400px" heigh="180">
+		</noscript>
+		<img class="lazy" data-original="img/7.jpg" width="400px" heigh="180">
+		<noscript>
+			<img src="img/7.jpg" width="400px" heigh="180">
+		</noscript>
+		<div style="clear: both;"></div>
+	</div>
+</body>
+</html>
